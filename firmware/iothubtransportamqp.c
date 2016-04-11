@@ -8,15 +8,15 @@
 #include <stdint.h>
 #include <time.h>
 #include <limits.h>
-#include "azure_c_shared_utility/gballoc.h"
-#include "azure_c_shared_utility/crt_abstractions.h"
-#include "azure_c_shared_utility/doublylinkedlist.h"
-#include "azure_c_shared_utility/iot_logging.h"
-#include "azure_c_shared_utility/platform.h"
-#include "azure_c_shared_utility/sastoken.h"
-#include "azure_c_shared_utility/strings.h"
-#include "azure_c_shared_utility/urlencode.h"
-#include "azure_c_shared_utility/tlsio.h"
+#include "gballoc.h"
+#include "crt_abstractions.h"
+#include "doublylinkedlist.h"
+#include "iot_logging.h"
+#include "platform.h"
+#include "sastoken.h"
+#include "strings.h"
+#include "urlencode.h"
+#include "tlsio.h"
 
 #include "azure_uamqp_c/cbs.h"
 #include "azure_uamqp_c/link.h"

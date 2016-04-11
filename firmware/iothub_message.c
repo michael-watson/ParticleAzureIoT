@@ -5,9 +5,9 @@
 #ifdef _CRTDBG_MAP_ALLOC
 #include <crtdbg.h>
 #endif
-#include "azure_c_shared_utility/gballoc.h"
-#include "azure_c_shared_utility/iot_logging.h"
-#include "azure_c_shared_utility/buffer_.h"
+#include "gballoc.h"
+#include "iot_logging.h"
+#include "buffer_.h"
 
 #include "iothub_message.h"
 

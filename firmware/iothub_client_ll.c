@@ -6,11 +6,11 @@
 #include <crtdbg.h>
 #endif
 #include <string.h>
-#include "azure_c_shared_utility/gballoc.h"
-#include "azure_c_shared_utility/string_tokenizer.h"
-#include "azure_c_shared_utility/doublylinkedlist.h"
-#include "azure_c_shared_utility/iot_logging.h"
-#include "azure_c_shared_utility/tickcounter.h"
+#include "gballoc.h"
+#include "string_tokenizer.h"
+#include "doublylinkedlist.h"
+#include "iot_logging.h"
+#include "tickcounter.h"
 
 #include "iothub_client_ll.h"
 #include "iothub_client_private.h"
