@@ -6,9 +6,9 @@
 
 #include "xio.h"
 
-// #ifdef __cplusplus
-// extern "C" {
-// #endif /* __cplusplus */
+#ifdef __cplusplus
+extern "C" {
+#endif /* __cplusplus */
 
 // 	typedef struct SOCKET_LISTENER_INSTANCE_TAG* SOCKET_LISTENER_HANDLE;
 // 	typedef void(*ON_SOCKET_ACCEPTED)(void* context, XIO_HANDLE socket_io);
@@ -19,8 +19,8 @@
 // 	extern int socketlistener_stop(SOCKET_LISTENER_HANDLE socket_listener);
 // 	extern void socketlistener_dowork(SOCKET_LISTENER_HANDLE socket_listener);
 
-// #ifdef __cplusplus
-// }
-// #endif /* __cplusplus */
+#ifdef __cplusplus
+}
+#endif /* __cplusplus */
 
-// #endif /* SOCKETLISTENER_H */
+#endif /* SOCKETLISTENER_H */
