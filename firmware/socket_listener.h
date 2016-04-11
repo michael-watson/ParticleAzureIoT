@@ -4,7 +4,7 @@
 #ifndef SOCKETLISTENER_H
 #define SOCKETLISTENER_H
 
-#include "azure_c_shared_utility/xio.h"
+#include "xio.h"
 
 #ifdef __cplusplus
 extern "C" {
