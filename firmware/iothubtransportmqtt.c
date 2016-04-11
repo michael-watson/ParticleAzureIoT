@@ -15,7 +15,7 @@
 #include "iothub_client_ll.h"
 #include "iothub_client_private.h"
 #include "iothubtransportmqtt.h"
-#include "azure_umqtt_c/mqtt_client.h"
+#include "mqtt_client.h"
 #include "sastoken.h"
 #include "tickcounter.h"
 
