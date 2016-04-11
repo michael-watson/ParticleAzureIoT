@@ -4,7 +4,7 @@
 #ifndef IOTHUB_TRANSPORT_LL_H
 #define IOTHUB_TRANSPORT_LL_H
 
-#include "azure_c_shared_utility/doublylinkedlist.h"
+#include "doublylinkedlist.h"
 #include "iothub_message.h"
 #include "iothub_client_ll.h"
 
