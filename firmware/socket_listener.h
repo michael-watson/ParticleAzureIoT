@@ -6,21 +6,21 @@
 
 #include "xio.h"
 
-#ifdef __cplusplus
-extern "C" {
-#endif /* __cplusplus */
+// #ifdef __cplusplus
+// extern "C" {
+// #endif /* __cplusplus */
 
-	typedef struct SOCKET_LISTENER_INSTANCE_TAG* SOCKET_LISTENER_HANDLE;
-	typedef void(*ON_SOCKET_ACCEPTED)(void* context, XIO_HANDLE socket_io);
+// 	typedef struct SOCKET_LISTENER_INSTANCE_TAG* SOCKET_LISTENER_HANDLE;
+// 	typedef void(*ON_SOCKET_ACCEPTED)(void* context, XIO_HANDLE socket_io);
 
-	extern SOCKET_LISTENER_HANDLE socketlistener_create(int port);
-	extern void socketlistener_destroy(SOCKET_LISTENER_HANDLE socket_listener);
-	extern int socketlistener_start(SOCKET_LISTENER_HANDLE socket_listener, ON_SOCKET_ACCEPTED on_socket_accepted, void* callback_context);
-	extern int socketlistener_stop(SOCKET_LISTENER_HANDLE socket_listener);
-	extern void socketlistener_dowork(SOCKET_LISTENER_HANDLE socket_listener);
+// 	extern SOCKET_LISTENER_HANDLE socketlistener_create(int port);
+// 	extern void socketlistener_destroy(SOCKET_LISTENER_HANDLE socket_listener);
+// 	extern int socketlistener_start(SOCKET_LISTENER_HANDLE socket_listener, ON_SOCKET_ACCEPTED on_socket_accepted, void* callback_context);
+// 	extern int socketlistener_stop(SOCKET_LISTENER_HANDLE socket_listener);
+// 	extern void socketlistener_dowork(SOCKET_LISTENER_HANDLE socket_listener);
 
-#ifdef __cplusplus
-}
-#endif /* __cplusplus */
+// #ifdef __cplusplus
+// }
+// #endif /* __cplusplus */
 
-#endif /* SOCKETLISTENER_H */
+// #endif /* SOCKETLISTENER_H */
