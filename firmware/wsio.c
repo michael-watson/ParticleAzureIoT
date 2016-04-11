@@ -13,7 +13,7 @@
 #include "xlogging.h"
 #include "list.h"
 #include "libwebsockets.h"
-#include "openssl/ssl.h"
+#include <ssl.h>
 #include "xio.h"
 
 typedef enum IO_STATE_TAG

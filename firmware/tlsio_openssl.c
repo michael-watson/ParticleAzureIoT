@@ -6,9 +6,9 @@
 #include <crtdbg.h>
 #endif
 
-#include "openssl/ssl.h"
-#include "openssl/err.h"
-#include "openssl/crypto.h"
+#include <ssl.h>
+#include <err.h>
+#include <crypto.h>
 #include <stdio.h>
 #include <stdbool.h>
 #include "tlsio.h"
