@@ -1,0 +1,7 @@
+{ 
+   "name": "iothub_client", 
+   "author": "Michael Watson <xambrew@gmail.com>", 
+   "license": "MIT", 
+   "version": "0.0.10", 
+   "description": "Azure IoT Hub IoTHub_Client" 
+ } 
